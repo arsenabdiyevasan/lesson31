@@ -1,0 +1,107 @@
+/* .div{
+    text-align: center;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+body{
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.hed{
+    padding-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    padding:5px 10px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.da{
+    background-color: brown;
+}
+.gr{
+    background: rgb(32, 153, 58);
+}
+.darck{
+    background: rgb(15, 15, 15);
+}
+.pur{
+    background: rgb(143, 11, 136);
+}
+.bl{
+    background: rgb(37, 62, 206);
+}
+.cr{
+    background-color:crimson;
+}
+.container{
+    width: 500px;
+    padding: 5px 40px;
+}
+.can{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.con{
+    display: flex;
+    align-items: center;
+}
+.ball{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: -10px;
+    background: crimson;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.mail{
+    margin: 1px;
+    color: gray;
+}
+.albumbox{
+    width: 500px;
+    height: 300px;
+    background-color: crimson;
+}
+.photobox{
+    width: 600px;
+    height: 600px;
+}
+.photobox img{
+    width: 100%;
+    height: 100%;
+}
+.albumtext{
+    text-align: center  ;
+}
+.cards{
+    width: 500px;
+    margin: 20px 0;
+    border: 1px solid black;
+}
+.usertext{
+    text-align: center;
+}
+.gray{
+    color: gray;
+}
+.cen{
+    text-align: center;
+}
+.todobox{
+    width: 500px;
+    text-align: center;
+    margin: 20px;
+    border: 1px solid black;
+
+}
+.postbox{
+    width: 500px;
+    
+}
